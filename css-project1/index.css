@@ -1,0 +1,50 @@
+body {
+    background-color: #f7cac9;
+  }
+  h1{
+    list-style-position: inside;
+    border-style:solid;
+    border-right: thick silver solid;
+    border-left: thick silver solid;
+    text-align: center;
+  }
+  .firstDiv, .secondDiv, .thirdDiv {
+    border: 7px outset gold;
+    background-color:lightblue;
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  img{
+    border: 7px outset brown;
+    text-align: center;
+  }
+  .first {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ae274f;
+    
+}
+
+  li {
+    float:left;
+  }
+
+  li a {
+    display: block;
+    padding:12px 14px;
+    color:white;
+    text-decoration:wavy;
+    text-align: center;
+  }
+  li a:hover{
+    background-color: #572937;
+  }
+  .active{background-color: rgb(255, 0, 85);}
+  
